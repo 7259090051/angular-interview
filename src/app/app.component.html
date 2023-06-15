@@ -1,1 +1,6 @@
-<b>{{ title }}</b>
+{{ title}}
+<input type="text" [(ngModel)] = 'inputData'>
+<button (click)="someFn()">someFn</button>
+ <app-child-component [testButton]="passDataToChild"></app-child-component>
+<!-- <ng-template [ngIf]="ss"><p><fffffssss/p></ng-template> -->
+    <!-- <ng-template #ee><p><fffffssss/p></ng-template> -->
